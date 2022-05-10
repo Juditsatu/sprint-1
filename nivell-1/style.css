@@ -25,33 +25,12 @@ nav {
     flex: 1;
     background-color: #006d77;
     margin: 10px;
+    padding: 1em;
 }
 
 .head {
     display: flex;
     padding: 1em;
-}
-
-@media (max-width: 48em) {
-    header {
-        display: table-header-group;
-    }
-
-    .head {
-        display: table;
-    }
-
-    main, .right-col {
-        display: table-cell;
-    }   
-
-    main {
-        width:70%;
-    }
-
-    footer {
-        display: table-footer-group;
-    }
 }
 
 .head > div {
@@ -60,11 +39,11 @@ nav {
 }
 
 .logo {
-    width: 100px;
+    padding: 0.5rem;
 }
 
 .social {
-    width: 100px;
+    padding: 0.5rem;
 }
 
 .head-img {
@@ -76,6 +55,7 @@ nav {
 /* CONTINGUT */
 main, .right-col {
     display: table-cell;
+    background-color: #e29578;
 }
 
 main {
@@ -85,31 +65,39 @@ main {
 
 main, aside {
     text-align: left;
-    padding: 4em;
+    padding: 2em;
 }
 
-aside {
-    background-color: #e29578;
+.aside-col {
+    background-color: #e6b5a3;
+    margin: 1rem 0;
+    padding: 2rem;
 }
 
 h2 {
-    background-color: #e29578;
+    background-color: #48878d;
+    color: #edf6f9;
     font-weight: 100;
     font-style: italic;
+    padding: 0.5rem;
 }
 
 .container {
     display: flex;
     background: #edf6f9;
+    padding: 1rem;
 }
 
 .col {
-    flex-direction: column;
-    padding: 2em;
+    background-color: #83c5be;
+    padding: 3rem;
+    margin: 1rem;
 }
 
 .text-bottom {
-    margin: 1em;
+    background: #edf6f9;
+    margin: 1rem 0;
+    padding: 2rem;
 }
 
 /* PEU PAGINA */
@@ -117,6 +105,41 @@ footer {
     background-color: #006d77;
     color: #D5F2E3;
     text-align: center;
-    height: 3rem;
+    height: 4rem;
     line-height: 3rem;
+}
+
+/* TABLET */
+@media (max-width: 64em) {
+    main, .right-col {
+        display: table-row;
+    }  
+}
+
+
+/* MOBIL */
+@media (max-width: 48em) {
+    header {
+        display: table-header-group;
+    }
+
+    .head {
+        display: table-row;;
+    }
+
+    main, .right-col {
+        display: table-row;
+    }  
+    
+    main, .container {
+        display: table-row;
+    }
+
+    main {
+        width:70%;
+    }
+
+    footer {
+        display: table-footer-group;
+    }
 }
