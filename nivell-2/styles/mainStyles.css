@@ -21,7 +21,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: 0 -15rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 nav {
@@ -30,7 +30,7 @@ nav {
     padding: 1em;
 }
 
-/*MIDES ICONES */
+/* MIDES ICONES */
 .head {
     display: flex;
     padding: 1em;
@@ -40,8 +40,9 @@ nav {
     margin: 10px;
 }
 
-.logo {
+.logo > img {
     padding: 0.5rem;
+    width: 8rem;
 }
 
 .social {
@@ -54,7 +55,6 @@ nav {
 main, .right-col {
     display: table-cell;
     background-color: #b4b4bb;
-    border-left: 1rem solid white;
 }
 
 main {
@@ -81,7 +81,8 @@ h2 {
 }
 
 .content-layout {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .col {
