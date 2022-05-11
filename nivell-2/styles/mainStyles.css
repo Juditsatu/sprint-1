@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');;
+}
+
+/* CONTAINER */
+.container {
+    font-family: 'Roboto', sans-serif;
+    color: #01110A;
+
+    max-width: 1200px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* HEADER */
+header {
+    background-image:url("/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 -15rem;
+    padding-bottom: 2rem;
+}
+
+nav {
+    flex: 1;
+    margin: 10px;
+    padding: 1em;
+}
+
+/*MIDES ICONES */
+.head {
+    display: flex;
+    padding: 1em;
+}
+
+.head > div {
+    margin: 10px;
+}
+
+.logo {
+    padding: 0.5rem;
+}
+
+.social {
+    padding: 0.5rem;
+}
+
+
+
+/* CONTINGUT */
+main, .right-col {
+    display: table-cell;
+    background-color: #b4b4bb;
+    border-left: 1rem solid white;
+}
+
+main {
+    width: 75%;
+    background-color: #b4b4bb;
+}
+
+aside {
+    text-align: center;
+    padding: 1rem;
+}
+
+.aside-col {
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+h2 {
+    background-color: #e68686;
+    color: #edf6f9;
+    font-weight: 100;
+    font-style: italic;
+    padding: 0.5rem 0 0 0.2rem;
+}
+
+.content-layout {
+    display: flex;
+}
+
+.col {
+    background-color: #e7e5e5 ;
+    padding: 1rem;
+    margin: 1rem;
+    flex-basis: calc(100% / 2);
+}
+
+.text-bottom {
+    margin: 1rem;
+    padding: 2rem;
+}
+
+/* PEU PAGINA */
+footer {
+    background-color: #e7e5e5 ;
+    text-align: center;
+    height: 4rem;
+    line-height: 3rem;
+}

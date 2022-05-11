@@ -1,0 +1,36 @@
+/* TABLET */
+@media (max-width: 64em) {
+    main, .right-col {
+        border-top: 1rem solid white;
+        display: table-row;
+    }  
+}
+
+
+/* MOBIL */
+@media (max-width: 48em) {
+    header {
+        display: table-header-group;
+    }
+
+    .head {
+        display: table-row;;
+    }
+
+    main, .right-col {
+        border-top: 1rem solid white;
+        display: table-row;
+    }  
+    
+    main, .container {
+        display: table-row;
+    }
+
+    main {
+        width:70%;
+    }
+
+    footer {
+        display: table-footer-group;
+    }
+}
