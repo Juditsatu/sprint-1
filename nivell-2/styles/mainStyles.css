@@ -50,12 +50,15 @@ nav a:hover {
     color:#e68686;
 }
 
+/* ROLLOVER */
+
+
 /*MIDES ICONES */
 .head {
     display: flex;
 }
 
-.logo > img {
+.logo, a > img {
     width: 5rem;
     padding: 1rem;
 }
