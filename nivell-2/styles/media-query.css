@@ -7,10 +7,14 @@
         background-size: cover;
         position: relative;
     }
-    main, .right-col {
+    section, .right-col {
         border-top: 1rem solid white;
         display: table-row;
     }  
+    
+    aside {
+        margin: 0;
+    }
 }
 
 /* MOBIL */
@@ -48,7 +52,11 @@
     }
 
     .content-layout {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    aside {
+        margin: 0;
     }
 }
