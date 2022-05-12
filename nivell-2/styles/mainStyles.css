@@ -20,39 +20,67 @@ header {
     background-image:url("/nivell-2/images/header.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position: 0 -15rem;
-    padding-bottom: 3rem;
+    background-position: 0 -16rem;
+    padding-bottom: 10rem;
 }
 
+/* MENU NAV */
 nav {
-    flex: 1;
-    margin: 10px;
-    padding: 1em;
+    width: 100%;
+    padding: 2rem;
+    overflow: auto;
 }
 
-/* MIDES ICONES */
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li a {
+    color: #646464;
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color:#e68686;
+}
+
+/* ROLLOVER */
+
+
+/*MIDES ICONES */
 .head {
     display: flex;
-    padding: 1em;
 }
 
-.head > div {
-    margin: 10px;
-}
-
-.logo > img {
-    padding: 0.5rem;
-    width: 8rem;
+.logo, a > img {
+    width: 5rem;
+    padding: 1rem;
 }
 
 .social {
-    padding: 0.5rem;
+    padding: 2rem;
 }
 
+.social a:hover {
+    color:#e68686;
+}
 
+/*.slogan {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content:flex-end;
+    height: 10rem;
+    text-align: center;
+}*/
 
 /* CONTINGUT */
-main, .right-col {
+main, aside {
     display: table-cell;
     background-color: #b4b4bb;
 }
@@ -67,7 +95,7 @@ aside {
     padding: 1rem;
 }
 
-.aside-col {
+.aside-content {
     margin: 1rem 0;
     padding: 1rem;
 }
@@ -89,12 +117,10 @@ h2 {
     background-color: #e7e5e5 ;
     padding: 1rem;
     margin: 1rem;
-    flex-basis: calc(100% / 2);
 }
 
 .text-bottom {
-    margin: 1rem;
-    padding: 2rem;
+    margin: 2rem;
 }
 
 /* PEU PAGINA */
