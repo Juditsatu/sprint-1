@@ -20,58 +20,61 @@ header {
     background-image:url("/nivell-2/images/header.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position: 0 -15rem;
-    padding-bottom: 2rem;
+    background-position: 0 -16rem;
+    padding-bottom: 10rem;
 }
 
 /* MENU NAV */
 nav {
-    flex: 1;
     width: 100%;
-    margin: 10px;
-    padding: 1em;
+    padding: 2rem;
     overflow: auto;
 }
 
 ul {
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 li a {
-    color: #5c5c5e;
+    color: #646464;
+    float: left;
     display: block;
-    float:left;
     text-decoration: none;
-    padding: 1em;
+    padding: 0.5rem;
     font-size: 1em;
 }
 
 nav a:hover {
-    background-color: #01110A;
+    color:#e68686;
 }
 
 /*MIDES ICONES */
 .head {
     display: flex;
-    padding: 1em;
-}
-
-.head > div {
-    margin: 4rem;
 }
 
 .logo > img {
-    width: 6rem;
+    width: 5rem;
+    padding: 1rem;
 }
 
 .social {
-    display: block;
-    padding: 0.5rem;
+    padding: 2rem;
 }
 
+.social a:hover {
+    color:#e68686;
+}
 
+/*.slogan {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content:flex-end;
+    height: 10rem;
+    text-align: center;
+}*/
 
 /* CONTINGUT */
 main, aside {
@@ -114,8 +117,7 @@ h2 {
 }
 
 .text-bottom {
-    margin: 1rem;
-    padding: 2rem;
+    margin: 2rem;
 }
 
 /* PEU PAGINA */
