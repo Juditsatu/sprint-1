@@ -24,10 +24,32 @@ header {
     padding-bottom: 2rem;
 }
 
+/* MENU NAV */
 nav {
     flex: 1;
+    width: 100%;
     margin: 10px;
     padding: 1em;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color: #5c5c5e;
+    display: block;
+    float:left;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1em;
+}
+
+nav a:hover {
+    background-color: #01110A;
 }
 
 /*MIDES ICONES */
@@ -37,24 +59,24 @@ nav {
 }
 
 .head > div {
-    margin: 10px;
+    margin: 4rem;
 }
 
-.logo {
-    padding: 0.5rem;
+.logo > img {
+    width: 6rem;
 }
 
 .social {
+    display: block;
     padding: 0.5rem;
 }
 
 
 
 /* CONTINGUT */
-main, .right-col {
+main, aside {
     display: table-cell;
     background-color: #b4b4bb;
-    border-left: 1rem solid white;
 }
 
 main {
@@ -67,7 +89,7 @@ aside {
     padding: 1rem;
 }
 
-.aside-col {
+.aside-content {
     margin: 1rem 0;
     padding: 1rem;
 }
@@ -81,14 +103,14 @@ h2 {
 }
 
 .content-layout {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .col {
     background-color: #e7e5e5 ;
     padding: 1rem;
     margin: 1rem;
-    flex-basis: calc(100% / 2);
 }
 
 .text-bottom {
