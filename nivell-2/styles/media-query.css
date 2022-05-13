@@ -33,10 +33,10 @@
         grid-column-end: 3;
     }
 
-    .color-block {
-        grid-row-start: 2;
+    .block-title {
+        grid-row-start: 1;
+        width: 70%;
     }
-
     .content-layout {
         display: flex;
         flex-wrap: wrap;
@@ -87,8 +87,9 @@
         grid-column-end: 3;
     }
 
-    .color-block {
+    .block-title {
         grid-row-start: 2;
+        width: 70%;
     }
     
     .content-layout {
@@ -111,6 +112,12 @@
         background-size: cover;
         position: relative;
     }
+
+    .block-title {
+        grid-row-start: 2;
+        margin-left: 4rem;
+    }
+
     section, .right-col {
         border-top: 1rem solid white;
         display: table-row;
