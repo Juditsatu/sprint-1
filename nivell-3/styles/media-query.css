@@ -1,0 +1,133 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    header {
+        background-position: 0 10rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 1rem;
+        display: grid;
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+    }
+
+    .logo {
+        grid-row-start: 1;
+        grid-column-end: 2;
+    }
+
+    nav {
+        grid-row-start: 1;
+        grid-column-end: 1;
+    }
+
+    ul {
+        display: grid;
+    }
+
+    .social {
+        grid-row-start: 1;
+        grid-column-end: 3;
+    }
+
+    .color-block {
+        grid-row-start: 2;
+    }
+
+    .content-layout {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text {
+        column-count: 1;
+    }
+
+    aside {
+        margin: 0;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    header {
+        background-position: 0 10rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+    }
+
+    .logo {
+        grid-row-start: 1;
+        grid-column-end: 2;
+    }
+
+    nav {
+        grid-row-start: 1;
+        grid-column-end: 1;
+    }
+
+    ul {
+        display: grid;
+    }
+
+    .social {
+        grid-row-start: 1;
+        grid-column-end: 3;
+    }
+
+    .color-block {
+        grid-row-start: 2;
+    }
+    
+    .content-layout {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    aside {
+        margin: 0;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    header {
+        background-position: 0 -5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    section, .right-col {
+        border-top: 1rem solid white;
+        display: table-row;
+    }  
+    
+    aside {
+        margin: 0;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    
+}
