@@ -58,7 +58,7 @@ body {
 
 /* HEADER */
 header {
-    background-image:url("/nivell-3/images/header.jpg");
+    background-image:url("../images/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 5rem;
